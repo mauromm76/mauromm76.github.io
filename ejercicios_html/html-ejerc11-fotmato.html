@@ -3,69 +3,80 @@
     <head>
         <title>Listas</title>
         <meta charset="utf-8">
+        <style>
+            h1{background-color:yellow;}
+
+            #cosas_ordenades {color: red;}
+
+            #cosas_desordenadas {color: green;}
+
+            #ordenadas {color: red;}
+
+            #desordenadas {color: blue;}
+        </style>
     </head>
     <body>
-        <h1>Cosas que hago todos los días</h1>
+        <h1 id="cosas_ordenades">Cosas que hago todos los días</h1>
         <ol>
             <li><h2>Por la mañana</h2></li>
             <ol>
-                <li><h3>Me despierto</h3></li>
+                <li><h3 id="ordenadas">Me despierto</h3></li>
                 <img src="https://th.bing.com/th/id/OIP.MU6hgVcTjx2Ls8MyOJ29BQHaEW?pid=ImgDet&rs=1" alt="Despertar" height="100">
-                <li><h3>Desayuno</h3></li>
+                <li><h3 id="ordenadas">Desayuno</h3> </li>
                 <img src="https://th.bing.com/th/id/OIP.0M_BoYNsOlNFLImyLuXYSwHaE7?pid=ImgDet&rs=1" alt="desayuno" height="100">
-                <li><h3>Me cambio de ropa</h3></li>
+                <li><h3 id="ordenadas">Me cambio de ropa</h3></li>
                 <img src="https://th.bing.com/th/id/R.058b61d7d43174db8dd1856909fb387b?rik=KFGsdXo9m%2fYVeQ&pid=ImgRaw&r=0" alt="ropa" height="100">
-                <li><h3>Voy a clase</h3></li>
+                <li><h3 id="ordenadas">Voy a clase</h3></li>
                 <img src="https://th.bing.com/th/id/R.341be1060cbd58a1baadff666183b5f6?rik=FxTwaSVPJBIQtQ&pid=ImgRaw&r=0" alt="autobús" height="100">
             </ol>        
             <li><h2>Por la tarde</h2></li>
             <ol>
-                <li><h3>Como</h3></li>
+                <li><h3 id="ordenadas">Como</h3></li>
                 <img src="https://th.bing.com/th/id/OIP.MV4dM5nzs01Dh15g6GcSPQHaE8?pid=ImgDet&rs=1" alt="comida" height="100">
-                <li><h3>Estudio</h3></li>
+                <li><h3 id="ordenadas">Estudio</h3></li>
                 <img src="https://th.bing.com/th/id/R.bca80ba01b7d47ac38c642301848a53c?rik=WhJSwz8UlB3uQA&pid=ImgRaw&r=0" alt="estudiar" height="100">                
-                <li><h3>Voy a entrenar</h3></li>
+                <li><h3 id="ordenadas">Voy a entrenar</h3></li>
                 <img src="https://i.pinimg.com/originals/67/bd/e4/67bde44391912d512748437930c2f36f.jpg" alt="campo de fútbol" height="100">
             </ol>    
             <li><h2>Por la noche</h2></li>
             <ol>
-                <li><h3>Me ducho</h3></li>
+                <li><h3 id="ordenadas">Me ducho</h3></li>
                 <img src="https://th.bing.com/th/id/R.147be28c5aa917a7e70a2d5c0d7eecef?rik=B9YWzDDKxdCRgw&pid=ImgRaw&r=0" alt="ducha" height="100">
-                <li><h3>Ceno</h3></li>
+                <li><h3 id="ordenadas">Ceno</h3></li>
                 <img src="https://th.bing.com/th/id/R.073e317f0129d471c3f89465e02376d2?rik=nvGZ35i1QXUy6g&riu=http%3a%2f%2fwww.siquia.com%2fwp-content%2fuploads%2f2014%2f04%2fcenar.jpg&ehk=jA7ieGh172bZqQbLmEbw9SvBOdMkR4LQ9%2fN442hRSis%3d&risl=&pid=ImgRaw&r=0" alt="cena" height="100">
-                <li><h3>Voy a dormir</h3></li>
+                <li><h3 id="ordenadas">Voy a dormir</h3></li>
                 <img src="https://th.bing.com/th/id/R.a54a8939e99e0ed3131965ed52bfbb0a?rik=wDLFBZVfUz0wVg&pid=ImgRaw&r=0" alt="dormir" height="100">
             </ol>    
        </ol>  
-       <h1> Cosas que hago todos los días sin orden</h1>
+       <h1 id="cosas_desordenadas"> Cosas que hago todos los días sin orden</h1>
        <ul>
            <li><h2>Por la mañana</h2></li>
            <ul>
-                <li><h3>Me despierto</h3></li>
+                <li><h3 id="desordenadas">Me despierto</h3></li>
                 <img src="https://th.bing.com/th/id/OIP.MU6hgVcTjx2Ls8MyOJ29BQHaEW?pid=ImgDet&rs=1" alt="Despertar" height="100">
-                <li><h3>Desayuno</h3></li>
+                <li><h3 id="desordenadas">Desayuno</h3></li>
                 <img src="https://th.bing.com/th/id/OIP.0M_BoYNsOlNFLImyLuXYSwHaE7?pid=ImgDet&rs=1" alt="deasayuno" height="100">
-                <li><h3>Me cambio de ropa</h3></li>
+                <li><h3 id="desordenadas">Me cambio de ropa</h3></li>
                 <img src="https://th.bing.com/th/id/R.058b61d7d43174db8dd1856909fb387b?rik=KFGsdXo9m%2fYVeQ&pid=ImgRaw&r=0" alt="ropa" height="100">
-                <li><h3>Voy a clase</h3></li>
+                <li><h3 id="desordenadas">Voy a clase</h3></li>
                 <img src="https://th.bing.com/th/id/R.341be1060cbd58a1baadff666183b5f6?rik=FxTwaSVPJBIQtQ&pid=ImgRaw&r=0" alt="autobús" height="100">
             </ul>        
            <li><h2>Por la tarde</h2></li>
            <ul>
-                <li><h3>Como</h3></li>
+                <li><h3 id="desordenadas">Como</h3></li>
                 <img src="https://th.bing.com/th/id/OIP.MV4dM5nzs01Dh15g6GcSPQHaE8?pid=ImgDet&rs=1" alt="comida" height="100">
-                <li><h3>Estudio</h3></li>
+                <li><h3 id="desordenadas">Estudio</h3></li>
                 <img src="https://th.bing.com/th/id/R.bca80ba01b7d47ac38c642301848a53c?rik=WhJSwz8UlB3uQA&pid=ImgRaw&r=0" alt="estudiar" height="100">
-                <li><h3>Voy a entrenar</h3></li>
+                <li><h3 id="desordenadas">Voy a entrenar</h3></li>
                 <img src="https://i.pinimg.com/originals/67/bd/e4/67bde44391912d512748437930c2f36f.jpg" alt="campo de fútbol" height="100">
             </ul>
            <li><h2>Por la noche</h2></li>
            <ul>
-                <li><h3>Me ducho</h3></li>
+                <li><h3 id="desordenadas">Me ducho</h3></li>
                 <img src="https://th.bing.com/th/id/R.147be28c5aa917a7e70a2d5c0d7eecef?rik=B9YWzDDKxdCRgw&pid=ImgRaw&r=0" alt="ducha" height="100">
-                <li><h3>Ceno</h3></li>
+                <li><h3 id="desordenadas">Ceno</h3></li>
                 <img src="https://th.bing.com/th/id/R.073e317f0129d471c3f89465e02376d2?rik=nvGZ35i1QXUy6g&riu=http%3a%2f%2fwww.siquia.com%2fwp-content%2fuploads%2f2014%2f04%2fcenar.jpg&ehk=jA7ieGh172bZqQbLmEbw9SvBOdMkR4LQ9%2fN442hRSis%3d&risl=&pid=ImgRaw&r=0" alt="cena" height="100">
-                <li><h3>Voy a dormir</h3></li>
+                <li><h3 id="desordenadas">Voy a dormir</h3></li>
                 <img src="https://th.bing.com/th/id/R.a54a8939e99e0ed3131965ed52bfbb0a?rik=wDLFBZVfUz0wVg&pid=ImgRaw&r=0" alt="dormir" height="100">
             </ul>    
         </ul>   
